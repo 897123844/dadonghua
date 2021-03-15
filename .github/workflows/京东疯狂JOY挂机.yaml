@@ -29,6 +29,8 @@ jobs:
                   PUSH_KEY: ${{ github.event.client_payload.PUSH_KEY || secrets.PUSH_KEY }}
                   BARK_PUSH: ${{ github.event.client_payload.BARK_PUSH || secrets.BARK_PUSH }}
                   BARK_SOUND: ${{ github.event.client_payload.BARK_SOUND || secrets.BARK_SOUND }}
+                  EFORK: ${{ secrets.EFORK }}
+                  GITHUB: ${{ secrets.GITHUB }}
                   DD_BOT_TOKEN: ${{ github.event.client_payload.DD_BOT_TOKEN || secrets.DD_BOT_TOKEN }}
                   DD_BOT_SECRET: ${{ github.event.client_payload.DD_BOT_SECRET || secrets.DD_BOT_SECRET }}
                   IGOT_PUSH_KEY: ${{ github.event.client_payload.IGOT_PUSH_KEY || secrets.IGOT_PUSH_KEY }}
