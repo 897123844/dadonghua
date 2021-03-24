@@ -131,13 +131,13 @@ async function executeOneByOne() {
           
   } else if (SyncUrl.indexOf('jd_get_share_code')>0) 
   {
-     console.log(rcontent,0);
+     console.log(hideme(rcontent,0));
        } 
  else    
 
   {
          
-       console.log(rcontent,1);
+       console.log(hideme(rcontent,1));
 
      }
        
