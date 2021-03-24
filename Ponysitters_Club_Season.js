@@ -129,9 +129,9 @@ async function executeOneByOne() {
           console.log('发送结果完毕');
           
           
-  } else if (SyncUrl.indexOf('jd_get_share_code')>0) 
+  } //else if (SyncUrl.indexOf('jd_get_share_code')>0) 
   {
-     console.log(hideme(rcontent,0));
+     //console.log(hideme(rcontent,0));
        } 
  else    
 
