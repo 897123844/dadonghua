@@ -33,7 +33,7 @@ const JXNCTOKENS = process.env.JXNCTOKENS; //京戏农场种子
 
 
 
-let jxnc_nodo=[];//惊喜农场固定跳过号码,格式jxnc_nodo=[0,1],意思是跳过第1个,第2个号码不执行.
+let jxnc_nodo=[2,3];//惊喜农场固定跳过号码,格式jxnc_nodo=[0,1],意思是跳过第1个,第2个号码不执行.
 
 
 let NCShareCodes=[""];//京东农厂
